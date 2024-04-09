@@ -5,7 +5,7 @@ import inquirer from "inquirer";
 //     2) enter your guessed number
 //     3) compare your number with random number and show the result
 
-const randomNumber = Math.floor(Math.random() * 10 + 1);
+const randomNumber = Math.floor(Math.random() * 6 + 1);
 
 const awnswer = await inquirer.prompt(
     [
